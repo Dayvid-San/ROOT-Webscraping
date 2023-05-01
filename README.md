@@ -34,9 +34,22 @@ createDatabase('pessoas.xlsx', 'Sheet1', ['Nome', 'Idade', 'Genero'], [['João',
 Responsável por abrir o navegador. A função utiliza takingData para captura dos dados e retorna esses dados.
 <br>
 
-**Dos paramentros:**
+**Dos parametros:**
 
 <br>
 - url: url do site onde estamos buscando as informações
 - classLookingFor: a classe que estamos buscando dentro das tags
 - tagHTM: o tipo de tag que estamos buscando a class
+
+
+### ClickButton
+Função responsável por clicar em objetos no navegador. A função retorna resultante da página em HTML
+<br>
+
+**Dos parametros:**
+
+<br>
+
+- url: URL do site.
+- button_id: o identificador do button ou objeto.
+- classOrId: aqui você deve dizer se a tag clicada é um **id** ou uma **class**
